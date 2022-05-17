@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.navbar{
+    margin-top: 30px;
+    top: 0;
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+}
+.npart1{
+    padding-left: 290px;
+    margin-top: -10px;
+}
+.npart1 img{
+    width: 70px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+.npart2{
+    float: right;
+    /*margin-left:150px;*/
+    margin-top: -30px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 800px;
+}
+.npart2 li{
+    padding-left: 30px;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 20px;   
+}
+li a{   
+    text-decoration: none;
+    color:black;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.active {
+    text-decoration: underline;
+}
+.icon{
+    margin-left: 330px;
+}
+a.svg{
+    position: relative;
+    display: inline-block;
+}
+a.svg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#shop{
+    margin-top: 20px;
+}
+.svg{
+    top: 5px;
+}
+/* .shop::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f290";
+} */
+#hsec_1{
+    width: 100%;
+    height: 85vh;
+    background-image: url(/assets/images/main.webp);
+    background-repeat: no-repeat;
+    position:static;
+    background-size:cover;
+}
+#hsec_2{
+    padding: 100px;
+}
+/* :root {
+    font: 2ch/1 Consolas
+  } */
+.sec1_container span{
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    margin: 30px;
+}
+.sec1_container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 30px;
+}
+.sec1_container{
+    display: inline-block;
+    width: 410px;
+    margin: 200px 300px;
+}
+.sec1_container a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 30px;
+    padding: 10px 30px;
+}
+.sec2_container{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    margin: 100px 400px;
+}
+.sec2_container span{
+    font-family: 'Prata', serif;
+    font-size: 40px;
+}
+.sec2_container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+}
+.cards a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    width: fit-content;
+    margin: -20px auto;
+    text-align: center;
+}
+.card-accessories, .card-clothes , .card-toys{
+    display: flex;
+    flex-direction: column;
+}
